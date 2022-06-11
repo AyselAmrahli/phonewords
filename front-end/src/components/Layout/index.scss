@@ -1,0 +1,21 @@
+@use '../../assets/sass/main' as M;
+@use '../../assets/sass/colors' as C;
+
+.kiwi-layout {
+  position: fixed;
+  left: 0;
+  top:0;
+  background-color: C.$m-green-lighter;
+  width: 150px;
+  height: 100%;
+  z-index: 10;
+  @include M.flex-center;
+  @include M.devices(tablet) {
+    left: -100%;
+  }
+
+  img {
+    transform: rotate(-90deg);
+    height: 6rem;
+  }
+}

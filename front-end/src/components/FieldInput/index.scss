@@ -1,0 +1,21 @@
+@use '../../assets/sass/main' as M;
+
+.form-field {
+	max-width: 464px;
+	height: 56px;
+	margin: 0 auto;
+	background: linear-gradient(269.42deg, #F2FBFF -1.71%, rgba(242, 251, 255, 0.3) 100%);
+	border-radius: M.$radius-m;
+	position: relative;
+
+	input {
+		border: none;
+		outline: none;
+		background-color: transparent;
+		padding-right: M.$space-l;
+		padding-left: M.$space-s;
+		font-size: M.$font-size-s;
+		height: 100%;
+		width: 100%;
+	}
+}
