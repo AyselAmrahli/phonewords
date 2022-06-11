@@ -5,7 +5,7 @@ import './index.scss';
 
 const Layout: FC = () => (
   <div className="kiwi-layout">
-    <img src={kiwiLogo} alt="kiwi" />
+    <img src={kiwiLogo} alt="kiwi" aria-label="kiwi logo" />
   </div>
 )
 

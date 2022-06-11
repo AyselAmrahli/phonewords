@@ -46,6 +46,7 @@ const Home: FC = () => {
 
 				<Button
 					disabled={!value}
+					role="submit"
 					onClick={getData}
 				>
 					<Send />
