@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen, render } from '@testing-library/react';
 import Suggestions from '../components/Suggestions';
-describe('Company Details', () => {
+describe('Suggestion components', () => {
   let mockData: {name: string, number: string, words: Array<string>};
   beforeEach(() => {
     mockData = {
