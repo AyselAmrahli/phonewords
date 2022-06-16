@@ -1,5 +1,5 @@
 import React from 'react';
-import { screen, render } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import Suggestions from '../components/Suggestions';
 describe('Suggestion components', () => {
   let mockData: {name: string, number: string, words: Array<string>};
