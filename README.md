@@ -9,7 +9,6 @@ inspired by (https://en.wikipedia.org/wiki/Phoneword)
 - Typescript
 - kiwi.com components // (awesome)
 - My custom components
-- Cypress
 - React testing library (Unit Testing)
 
 Our FRONTEND is running at `localhost:3000`. 
